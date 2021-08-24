@@ -7,8 +7,9 @@ import Card from './components/card';
 import ProductGrid from './components/productgrid';
 function App() {
   return (
-    <div className="App">
+    <div>
    <Header/>
+   <StoreFrontBody/>
   <ProductGrid/>
     </div>
     
