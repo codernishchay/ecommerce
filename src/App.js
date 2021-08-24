@@ -3,7 +3,7 @@ import StoreFrontBody from './components/StoreFrontBody';
 import ProductGrid from './components/productgrid'; 
 function App() {
   return (
-    <div>
+    <div> 
    <Header/>
    <StoreFrontBody/>
 
