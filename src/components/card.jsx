@@ -2,12 +2,12 @@ function Card() {
   
   return (
   <div> 
-    <div class="flex items-center bg-indigo-100 w-screen min-h-screen font-family: 'Muli', sans-serif">
+    <div class="flex items-center bg-white">
   <div class="container ml-auto mr-auto flex flex-wrap items-start">
-    <div class="w-full md:w-1/2 lg:w-1/4 pl-5 pr-5 mb-5 lg:pl-2 lg:pr-2">
-      <div class="bg-white rounded-lg m-h-64 p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300">
-        <figure class="mb-2">
-          <img src="https://source.unsplash.com/random" alt="" class="h-64 ml-auto mr-auto object-contain" />
+    {/* <div class="pl-5 pr-5 mb-5"> */}
+      <div class="bg-white rounded-lg m-h-64  p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300 ml-auto mr-auto">
+        <figure class="mb-2 max-w-full p-3">
+          <img src="https://source.unsplash.com/random" alt="" class="h-64 ml-auto mr-auto rounded-t-xl " />
         </figure>
         <div class="rounded-lg p-4 bg-purple-700 flex flex-col">
           <div>
@@ -27,7 +27,7 @@ function Card() {
               </svg>
             </button>
           </div>
-        </div>
+        {/* </div><div className=""></div> */}
       </div>
     </div>
   </div>
