@@ -1,32 +1,15 @@
 import Button from "./Button";
+import ProductGrid from "./productgrid";
 
 function StoreFrontBody(){
     return (
-         <div className="flex flex-row bg-white-900 mt-16 ml-10">
-             <div  className= "w-1/3 flex flex-col justify-around">
-                <div className="p-10">
-                    <h1 className="text-5xl text-left font-serif font-extrabold"  >
-                        WdrDTGYGD
-                    </h1>
-                    
-              <div className="p-5">
-                   <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint culpa reprehenderit voluptatem fugiat! Modi sequi rerum assumenda odio sit architecto t    </p>
-              </div>
-              
-              <div className="text-center mt-8">
-                  <Button size='100'>Shop Now</Button>
-
-                  </div>
-       
-
-          </div>
-          </div>
+     <div className="bg-purple-400 w-full rounded-3xl mt-10">
           <div>
-              
-             <img src="./images/undraw_Outdoor_adventure_re_j3b7.svg" className=""></img>
+              <ProductGrid/>
           </div>
-         </div>
+         <h1>Helllo world</h1>
+        
+     </div>
     )
 }
 

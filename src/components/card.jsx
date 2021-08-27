@@ -2,10 +2,10 @@ function Card() {
   
   return (
   <div> 
-    <div class="flex items-center bg-white">
+    <div class="flex items-center bg-purple-400">
   <div class="container ml-auto mr-auto flex flex-wrap items-start">
     {/* <div class="pl-5 pr-5 mb-5"> */}
-      <div class="bg-white rounded-lg m-h-64  p-2 transform hover:translate-y-2 hover:shadow-xl transition duration-300 ml-auto mr-auto">
+      <div class="rounded-xl  bg-white m-h-64  p-2 transform hover:translate-y-2  shadow-xl hover:shadow-2l transition duration-300 ml-auto mr-auto">
         <figure class="mb-2 max-w-full p-3">
           <img src="https://source.unsplash.com/random" alt="" class="h-64 ml-auto mr-auto rounded-t-xl " />
         </figure>
